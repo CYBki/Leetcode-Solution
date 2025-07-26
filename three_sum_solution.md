@@ -67,9 +67,9 @@ class Solution:
                     left += 1
                     right -= 1
                 elif current_sum < target_sum:
-                    left += 1  # Increase sum
+                    left += 1  
                 else:
-                    right -= 1  # Decrease sum
+                    right -= 1  
 
         return result
 ```
